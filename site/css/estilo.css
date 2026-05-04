@@ -1,0 +1,40 @@
+.container{}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    background: #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Aqui está o principal */
+.main {
+    display: flex;
+}
+
+section {
+    flex: 3;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+aside {
+    flex: 1;
+    background: #ddd;
+    padding: 20px;
+}
+
+article {
+    background: white;
+    margin-bottom: 15px;
+    padding: 10px;
+}
